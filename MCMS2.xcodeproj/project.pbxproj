@@ -15,6 +15,7 @@
 		CCF2AD9A19E4F9EC003A1D84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF2AD9919E4F9EC003A1D84 /* Images.xcassets */; };
 		CCF2AD9D19E4F9EC003A1D84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF2AD9B19E4F9EC003A1D84 /* LaunchScreen.xib */; };
 		CCF2ADA919E4F9EC003A1D84 /* MCMS2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF2ADA819E4F9EC003A1D84 /* MCMS2Tests.m */; };
+		CCF2ADB719E4FB20003A1D84 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF2ADB619E4FB20003A1D84 /* MagicalCreature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		CCF2ADA219E4F9EC003A1D84 /* MCMS2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCMS2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF2ADA719E4F9EC003A1D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCF2ADA819E4F9EC003A1D84 /* MCMS2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMS2Tests.m; sourceTree = "<group>"; };
+		CCF2ADB519E4FB20003A1D84 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicalCreature.h; path = ../MagicalCreature.h; sourceTree = "<group>"; };
+		CCF2ADB619E4FB20003A1D84 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagicalCreature.m; path = ../MagicalCreature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		CCF2AD8819E4F9EC003A1D84 /* MCMS2 */ = {
 			isa = PBXGroup;
 			children = (
+				CCF2ADB519E4FB20003A1D84 /* MagicalCreature.h */,
+				CCF2ADB619E4FB20003A1D84 /* MagicalCreature.m */,
 				CCF2AD8D19E4F9EC003A1D84 /* AppDelegate.h */,
 				CCF2AD8E19E4F9EC003A1D84 /* AppDelegate.m */,
 				CCF2AD9319E4F9EC003A1D84 /* ViewController.h */,
@@ -224,6 +229,7 @@
 			files = (
 				CCF2AD9219E4F9EC003A1D84 /* MCMS2.xcdatamodeld in Sources */,
 				CCF2AD8F19E4F9EC003A1D84 /* AppDelegate.m in Sources */,
+				CCF2ADB719E4FB20003A1D84 /* MagicalCreature.m in Sources */,
 				CCF2AD9519E4F9EC003A1D84 /* ViewController.m in Sources */,
 				CCF2AD8C19E4F9EC003A1D84 /* main.m in Sources */,
 			);
